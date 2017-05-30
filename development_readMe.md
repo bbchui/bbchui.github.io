@@ -9,7 +9,7 @@ Pandakoid is a Javascript recreation of the arcade game Arkanoid by Taito. The g
 - [ ] Bamboo stick will be able to move left and right using the arrow keys
 - [ ] The score will be shown and updated after each broken block
 - [ ] The panda will move faster or slower depending on where it bounces off the bamboo stick
-- [ ] Background music that can be toggled on/off
+- [ ] Implement power-ups (multiple pandas at once / panda will go through a line of blocks)
 - [ ] Production ReadMe
 
 ## Wireframe
@@ -36,10 +36,10 @@ Day 1: Initial module setup, webpack configuration, skeleton Javascript files, r
 
 Day 2: Create board and bamboo control for game. Continue learning Easel for fluid game piece movement. Implement controls for player.
 
-Day 3: Implement Panda bouncing physics and sound.
+Day 3: Implement Panda bouncing physics and power ups.
 
 Day 4: Style game and implement any missing features.
 
 ## Bonus Features
-* Panda/Bamboo power-ups
+* Sound implementation and toggling
 * More levels

@@ -3,7 +3,7 @@ var webpack = require("webpack");
 
 module.exports = {
   context: __dirname,
-  entry: "./lib/game.js",
+  entry: "./lib/pandakoid.js",
   output: {
     path: path.resolve(__dirname, 'lib'),
     filename: "bundle.js"

@@ -9,13 +9,13 @@ body, h1, h2, h3, p, div, nav, ul, li {
 #canvas {
   width: 900px;
   height: 600px;
-  background-color: white;
   background-size: 100%;
+  /*background-color: white;*/
+  background-image: url("../images/bamboo_background.png");
   display: flex;
   justify-content: center;
   margin: auto
 }
-/*background-image: url("../images/bamboo_background.png");*/
 
 .testing {
   font-size: 50px;

@@ -19,7 +19,7 @@ body {
   opacity: 0.5;
 }
 
-.tester {
+.canvas-screen {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -82,10 +82,11 @@ section {
 }
 
 .title {
-  font-size: 120px;
+  font-size: 80px;
   display: flex;
   justify-content: center;
   font-family: 'Architects Daughter', cursive;
+  margin-bottom: -20px;
 }
 /*font-family: 'Amatic SC', cursive;*/
 

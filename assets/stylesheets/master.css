@@ -6,6 +6,10 @@ body, h1, h2, h3, p, div, nav, ul, li {
   color: inherit;
 }
 
+body {
+  background: #EDEDED;
+}
+
 
 #canvas {
   background-size: 100%;
@@ -25,42 +29,59 @@ section {
   display: flex;
   margin: auto;
   justify-content: center;
+  position: relative;
 }
 
 #welcome {
-  position: relative;
+  position: absolute;
   width: 900px;
   height: 600px;
   margin: auto;
-  top: -600px;
+  top: 0px;
   visibility: visible;
-  /*opacity: 0.5;*/
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
   font-family: 'Amatic SC', cursive;
 
 }
 
 #gameover {
-  position: relative;
+  position: absolute;
   width: 900px;
   height: 600px;
   margin: auto;
-  top: -1200px;
+  top: 0px;
   visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 90px;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-
+  font-weight: bold;
 }
 
-.testing {
+#win {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  top: 0px;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+.title {
   font-size: 120px;
   display: flex;
   justify-content: center;
@@ -68,24 +89,18 @@ section {
 }
 /*font-family: 'Amatic SC', cursive;*/
 
-body {
-  background: #EDEDED;
-  /*width: 1400px;*/
-  /*height: 800px;*/
-}
-
 .instructions {
-  width: 200px;
+  width: 300px;
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
-  padding-top: 200px;
+  font-size: 38px;
+  padding-top: 100px;
   text-align: center;
 }
 
 #score {
-  width: 200px;
+  width: 300px;
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
-  padding-top: 200px;
+  padding-top: 50px;
   text-align: center;
 }

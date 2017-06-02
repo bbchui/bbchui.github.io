@@ -6,6 +6,7 @@ body, h1, h2, h3, p, div, nav, ul, li {
   color: inherit;
 }
 
+
 #canvas {
   background-size: 100%;
   /*background-color: white;*/
@@ -38,6 +39,9 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 80px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+
 }
 
 #gameover {
@@ -52,13 +56,17 @@ section {
   align-items: center;
   font-size: 80px;
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+
 }
 
 .testing {
-  font-size: 50px;
+  font-size: 120px;
   display: flex;
   justify-content: center;
+  font-family: 'Architects Daughter', cursive;
 }
+/*font-family: 'Amatic SC', cursive;*/
 
 body {
   background: #EDEDED;
@@ -68,8 +76,16 @@ body {
 
 .instructions {
   width: 200px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  padding-top: 200px;
+  text-align: center;
 }
 
 #score {
   width: 200px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  padding-top: 200px;
+  text-align: center;
 }
